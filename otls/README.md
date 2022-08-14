@@ -12,5 +12,9 @@
   PolyPath
   
 #### Файлы:
-  - nord__edgegroup_to_curve__0_02_002.hda      - ассет
-  - nord__edgegroup_to_curve__0_02_002_TEST_.hip - пример (Houdini 19.0, в иных версиях возможны варнинги)
+  - nord__edgegroup_to_curve__0_05_002.hda      - ассет
+  - nord__edgegroup_to_curve__0_05_002_TEST_.hip - пример (Houdini 19.0, в иных версиях возможны варнинги)
+
+#### Update to 0.05.002
+1. Removed unnecessary primitives creation, thanks to Pedohorse (ХАРКОННЕН)
+2. Added "Join Connected Segments Together" toggle, so you can leave the segments unjoined
