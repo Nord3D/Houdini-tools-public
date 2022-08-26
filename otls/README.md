@@ -12,9 +12,13 @@
   PolyPath
   
 #### Файлы:
-  - nord__edgegroup_to_curve__0_05_002.hda      - ассет
+  - nord__edgegroup_to_curve__0_05_004.hda      - ассет
   - nord__edgegroup_to_curve__0_05_002_TEST_.hip - пример (Houdini 19.0, в иных версиях возможны варнинги)
 
 #### Update to 0.05.002
 1. Removed unnecessary primitives creation, thanks to Pedohorse (ХАРКОННЕН)
 2. Added "Join Connected Segments Together" toggle, so you can leave the segments unjoined
+
+#### Update to 0.05.004
+1. Added toggle "Sort Points by Vertex Order", because it's usually mess in point numbers
+2. Added Descriptive Parm for Group string, truncated if it is too long
