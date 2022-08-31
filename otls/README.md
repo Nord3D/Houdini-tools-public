@@ -24,7 +24,7 @@
 2. Added Descriptive Parm for Group string, truncated if it is too long
 
 ### Remove Degenerate Poly
-Определяет и удаляет вырожденные полигоны на основе отношения площади к четверть-периметру.
+Определяет и удаляет вырожденные полигоны на основе отношения площади к квадрату четверть-периметра.
 - The "quality" of a polygon here refers to the ratio of its area to the square of a quarter-perimeter. For example, the "quality" of a circle > 1, a square is 1, a rectangle < 1. The thinner the polygon, the lower its "quality". A fully degenerate polygon has a "quality" of zero
 
 #### Файлы:
