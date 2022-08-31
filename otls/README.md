@@ -22,3 +22,10 @@
 #### Update to 0.05.004
 1. Added toggle "Sort Points by Vertex Order", because it's usually mess in point numbers
 2. Added Descriptive Parm for Group string, truncated if it is too long
+
+### Remove Degenerate Poly
+#### Файлы:
+- nord__removedegenerate__1_01_001.hda - ассет
+- nord__removedegenerate__1_01_001.hip - пример (Houdini 19.0.657, в иных версиях возможны варнинги)
+Определяет и удаляет вырожденные полигоны на основе отношения площади к четверть-периметру.
+The "quality" of a polygon here refers to the ratio of its area to the square of a quarter-perimeter. For example, the "quality" of a circle > 1, a square is 1, a rectangle < 1. The thinner the polygon, the lower its "quality". A fully degenerate polygon has a "quality" of zero
