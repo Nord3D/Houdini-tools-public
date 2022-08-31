@@ -25,7 +25,7 @@
 
 ### Remove Degenerate Poly
 Определяет и удаляет вырожденные полигоны на основе отношения площади к четверть-периметру.
-The "quality" of a polygon here refers to the ratio of its area to the square of a quarter-perimeter. For example, the "quality" of a circle > 1, a square is 1, a rectangle < 1. The thinner the polygon, the lower its "quality". A fully degenerate polygon has a "quality" of zero
+- The "quality" of a polygon here refers to the ratio of its area to the square of a quarter-perimeter. For example, the "quality" of a circle > 1, a square is 1, a rectangle < 1. The thinner the polygon, the lower its "quality". A fully degenerate polygon has a "quality" of zero
 
 #### Файлы:
 - nord__removedegenerate__1_01_001.hda - ассет
