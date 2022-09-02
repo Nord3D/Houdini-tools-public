@@ -23,6 +23,14 @@
 1. Added toggle "Sort Points by Vertex Order", because it's usually mess in point numbers
 2. Added Descriptive Parm for Group string, truncated if it is too long
 
+### Curve to Edge Group
+
+
+#### Файлы:
+- nord__curve_to_edgegroup__1_01_001_TEST_.hda - ассет
+- nord__curve_to_edgegroup__1_01_001_TEST_.hip - пример
+- nord__curve_to_edgegroup__1_01_001_TEST_.png - картинка
+
 ### Remove Degenerate Poly
 Определяет и удаляет вырожденные полигоны на основе отношения площади к квадрату четверть-периметра.
 - The "quality" of a polygon here refers to the ratio of its area to the square of a quarter-perimeter. For example, the "quality" of a circle > 1, a square is 1, a rectangle < 1. The thinner the polygon, the lower its "quality". A fully degenerate polygon has a "quality" of zero
