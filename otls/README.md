@@ -39,3 +39,16 @@ HDA для обратной задачи, получения эдж группы
 #### Файлы:
 - nord__removedegenerate__1_01_001.hda - ассет
 - nord__removedegenerate__1_01_001.hip - пример (Houdini 19.0.657, в иных версиях возможны варнинги)
+
+### Size/Step Grid
+Like an original Grid, but with explicitly specified Grid size and Step size parameters
+
+#### Файлы:
+- nord__sizestepgrid__1_01_001.hda - ассет
+
+### Omni Extrude
+Two-way PolyExtrude, such it's extrudes in positive and negative direction simultaneously
+
+#### Файлы:
+- nord__omniextrude__1_02_002.hda - ассет
+
