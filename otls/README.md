@@ -44,7 +44,7 @@ HDA для обратной задачи, получения эдж группы
 Like an original Grid, but with explicitly specified Grid size and Step size parameters
 
 #### Файлы:
-- nord__sizestepgrid__1_01_001.hda
+- nord__sizestepgrid__1_02_001.hda
 
 ### Omni Extrude
 Two-way PolyExtrude, such it's extrudes in positive and negative direction simultaneously
