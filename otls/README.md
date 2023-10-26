@@ -12,7 +12,7 @@
   PolyPath
   
 #### Файлы:
-  - nord__edgegroup_to_curve__0_05_004.hda      - ассет
+  - nord__edgegroup_to_curve__0_09_001.hda      - ассет
   - nord__edgegroup_to_curve__0_05_002_TEST_.hip - пример (Houdini 19.0, в иных версиях возможны варнинги)
 
 #### Update to 0.05.002
